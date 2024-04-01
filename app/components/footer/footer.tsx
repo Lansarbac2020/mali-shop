@@ -22,7 +22,7 @@ const Footer = () => {
                 <FooterList>
                     <h3 className="text-base font-bold 
                     mb-2">Customer Services </h3>
-                    <Link href="#">Contact-Us</Link>
+                    <Link href="/contact">Contact-Us</Link>
                     <Link href="#">Shipping Policy</Link>
                     <Link href="#">Returns & Exchanges</Link>
                     <Link href="#">FAQs</Link>
@@ -30,27 +30,18 @@ const Footer = () => {
                 </FooterList>
                 <div className="w-full md:w-1/3 mb-6
                 md:mb-0">
-                    <h3 className="text-base font-bold 
-                    mb-2">About Us </h3>
-                    <p className="mb-2">Lorem ipsum dolor 
-                    sit amet consectetur, adipisicing elit. 
-                    Dolore soluta molestiae laboriosam eius, 
-                    hic natus officiis veritatis, praesentium 
-                    dolores error 
-                    veniam voluptate odio repellendus cumque</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387218.5247643652!2d-122.41941555021886!3d37.77492958737761!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858062b45d26a5%3A0xa6f81ad88cd1cb6b!2sSan%20Francisco%2C%20CA%2C%20USA!5e0!3m2!1sen!2sin!4v1648827197402!5m2!1sen!2sin" width="500" height="300" className="border-0" loading="lazy"  ></iframe>
                     <p>&copy; {new Date().getFullYear()} E-Shop. All rights reserved</p>
                 </div>
                 <FooterList>
                 <h3 className="text-base font-bold 
                     mb-2">Follows Us </h3>
                     <div className="flex gap-2">
-                    <Link href="#">
+                    <Link href="https://www.facebook.com/profile.php?id=100064973313047">
                         <MdFacebook size={24}/>
                     </Link>
-                    <Link href="#">
-                        <AiFillTwitterCircle size={24}/>
-                    </Link>
-                    <Link href="#">
+                   
+                    <Link href="https://www.instagram.com/21_lansar?igsh=MXZxczZuNGNramx5NQ==">
                         <AiFillInstagram size={24}/>
                     </Link>
                     <Link href="https://www.linkedin.com/in/lansarbacoroceolansarcenter/">
@@ -58,6 +49,10 @@ const Footer = () => {
                     </Link>
                     </div>
                 </FooterList>
+                <div className="w-full sm:w-1/2 md:w-1/4 lg:w-1/6 mb-6">
+               
+
+                    </div>
             </div>
         </Container>
         </footer>;
