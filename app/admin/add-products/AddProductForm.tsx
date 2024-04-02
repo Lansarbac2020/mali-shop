@@ -1,5 +1,5 @@
 'use client'
-
+import { Suspense } from "react";
 import Button from "@/app/components/Button";
 import Heading from "@/app/components/Heading";
 import CategoryInput from "@/app/components/inputs/CategoryInput";

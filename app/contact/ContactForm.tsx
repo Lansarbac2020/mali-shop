@@ -2,6 +2,7 @@ import React from 'react';
 import { useForm } from 'react-hook-form';
 import FormWrap from '../components/FormWrap';
 import Button from '../components/Button';
+import TextArea from '../components/inputs/TextArea';
 
 const ContactForm = () => {
     const { register, handleSubmit, formState: { errors } } = useForm();
@@ -37,7 +38,7 @@ const ContactForm = () => {
                         id="lastName"
                         {...register('lastName', { required: true })}
                     />
-                    {errors.lastName && <span className='text-rose-500'>Last name is required</span>}
+                    {errors.lastName && <span className='text-rose-500'>Last Name is required</span>}
                 </div>
             
                 <label htmlFor="email" className='font-bold'>Email:</label>
@@ -52,6 +53,32 @@ const ContactForm = () => {
                     {errors.email && errors.email.type === 'pattern' && <span className='text-red-600' >Invalid email address </span> }
                     {errors.email && errors.email.type === 'validate' && <span className='text-red-600' >Email address must contain '@' </span> }
                 </div>
+                <div className=' pt-6 w-full
+                relative'>
+                    <label htmlFor="message" className='font-bold '>Message : </label>
+             <textarea className={`disabled
+             placeholder:"Write your message"
+             w-full
+             peer
+             p-4
+             pt-6
+             max-h-[200px]
+             min-h-[200px]
+             outline-none
+             bg-white
+             font-light
+             border-2
+             rounded-md
+             transition
+             disabled:opacity-70
+             disabled:cursor-not-allowed
+             ${errors.message ? 'border-red-500' : ''}
+             ` }  id='message'
+             {...register('message', { required: true })}>
+
+             </textarea>
+             {errors.lastName && <span className='text-rose-500'>Please write your message  </span>}
+             </div>
             
                 <button className='mt-6 disabled:opacity-70 disabled:cursor-not-allowed rounded-md hover:opacity-80 transition w-full border-slate-700 flex items-center justify-center gap-2 bg-slate-700 text-white text-md font-semibold' type="submit">SEND</button>
             </form>

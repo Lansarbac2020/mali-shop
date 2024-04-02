@@ -2,7 +2,7 @@ import Link from "next/link";
 import Container from "../container";
 import FooterList from "./FooterList";
 import {MdFacebook} from 'react-icons/md';
-import {AiFillInstagram, AiFillLinkedin, AiFillTwitterCircle} from 'react-icons/ai';
+import {AiFillInstagram, AiFillLinkedin} from 'react-icons/ai';
 
 const Footer = () => {
     return <footer className="bg-slate-700
@@ -12,20 +12,20 @@ const Footer = () => {
             justify-between pt-16 pb-8">
                 <FooterList>
                     <h3 className="text-base font-bold mb-2">Shop Categories</h3>
-                    <Link href="#">Phones</Link>
-                    <Link href="#">Laptops</Link>
-                    <Link href="#">Desktops</Link>
-                    <Link href="#">Watches</Link>
-                    <Link href="#">Tvs</Link>
-                    <Link href="#">Accesories</Link>
+                    <Link href="?category=Phone"className="hover:text-white transition-shadow">Phones</Link>
+                    <Link href="?category=laptops"className="hover:text-white transition-shadow">Laptops</Link>
+                    <Link href="?category=Desktop" className="hover:text-white transition-shadow">Desktops</Link>
+                    <Link href="?category=Watch" className="hover:text-white transition-shadow">Watches</Link>
+                    <Link href="?category=Tvs" className="hover:text-white transition-shadow">Tvs</Link>
+                    <Link href="?category=Accessories" className="hover:text-white transition-shadow">Accesories</Link>
                 </FooterList>
                 <FooterList>
                     <h3 className="text-base font-bold 
                     mb-2">Customer Services </h3>
-                    <Link href="/contact">Contact-Us</Link>
-                    <Link href="#">Shipping Policy</Link>
-                    <Link href="#">Returns & Exchanges</Link>
-                    <Link href="#">FAQs</Link>
+                    <Link href="/contact" className="hover:text-white transition-shadow">Contact-Us</Link>
+                    <Link href="/shipping" className="hover:text-white transition-shadow">Shipping Policy</Link>
+                    <Link href="#" className="hover:text-white transition-shadow">Returns & Exchanges</Link>
+                    <Link href="#" className="hover:text-white transition-shadow">FAQs</Link>
                 
                 </FooterList>
                 <div className="w-full md:w-1/3 mb-6
