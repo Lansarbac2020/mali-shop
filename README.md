@@ -30,7 +30,7 @@ To begin working with our project, follow these steps:
 3. **Database Setup**: Configure and connect your MongoDB instance, and update Prisma accordingly.
 4. **Environment Variables**: Set up necessary environment variables (e.g., database connection string, API keys).
 5. **Start the Development Server**: `npm run dev` or `yarn dev`
-6. **Explore the Application**: Visit `http://localhost:3000` in your browser to see the application in action.
+6. **Explore the Application**: Visit `http://localhost:3000` in any browser to see the application in action.
 
 ## Contributing
 
