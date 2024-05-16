@@ -12,12 +12,12 @@ Welcome to the repository for our Fullstack E-Commerce web application built wit
 - **Prisma**: Database toolkit facilitating type-safe database access and schema management.
 - **MongoDB**: Scalable and flexible NoSQL database for efficient data storage.
 - **Firebase**: Comprehensive platform providing services such as authentication, real-time database, and cloud functions...
-- - **Stripe**:  Payment processing platform enabling secure and seamless transactions..
+-  **Stripe**:  Payment processing platform enabling secure and seamless transactions..
 
 ## Key Features
 
 - **User Authentication**: Secure user registration, authentication, and account management functionalities.
-- **Product Management**: Intuitive CRUD operations for managing products with ease.
+- **Product Management**: Intuitive CRUD operations  for managing products with ease.
 - **Shopping Cart**: Seamless shopping experience with the ability to add, remove, and modify items in the cart.
 - **Checkout Process**: Smooth checkout flow with order summary, shipping options, and secure payment processing.
 
@@ -28,7 +28,7 @@ To begin working with our project, follow these steps:
 1. **Clone the Repository**: `git clone [repository-url]`
 2. **Install Dependencies**: `npm install` or `yarn install`
 3. **Database Setup**: Configure and connect your MongoDB instance, and update Prisma accordingly.
-4. **Environment Variables**: Set up necessary environment variables (e.g., database connection string, API keys).
+4. **Environment Variables**: Set up necessary environment variables (e.g., database connection string, API keys ).
 5. **Start the Development Server**: `npm run dev` or `yarn dev`
 6. **Explore the Application**: Visit `http://localhost:3000` in any browser to see the application in action.
 
