@@ -1,7 +1,7 @@
 
 # Fullstack E-Commerce Web Application (Under development)
 
-Welcome to the repository for our Fullstack E-Commerce web application built with Next.js, This project serves as a comprehensive demonstration of modern web development practices in creating a scalable and feature-rich online shopping platform for users and admin.
+Welcome to the repository for  Fullstack E-Commerce web application built with Next.js, This project serves as a comprehensive demonstration of modern web development practices in creating a scalable and feature-rich online shopping platform for users and admin.
 
 ## Technologies Utilized
 
